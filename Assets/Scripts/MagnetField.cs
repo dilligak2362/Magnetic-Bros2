@@ -39,12 +39,12 @@ public class MagnetField : MonoBehaviour
 
         if (otherGO.CompareTag("PositivePlayer"))
         { //add check later for if the player is using their magnet ability
-            positivePlayer = otherGO;
+            positivePlayer = otherGO.transform.parent.gameObject;
             
         }
         else if (otherGO.CompareTag("NegativePlayer"))
         {
-            negativePlayer = otherGO;
+            negativePlayer = otherGO.transform.parent.gameObject;
         }
     }
 
@@ -55,12 +55,12 @@ public class MagnetField : MonoBehaviour
         if (otherGO.CompareTag("PositivePlayer"))
         { //add check later for if the player has turned off their magnet ability
             positivePlayer = null;
-            ApplyForce(otherGO, true);
+            
         }
         else if (otherGO.CompareTag("NegativePlayer"))
         {
             negativePlayer = null;
-            ApplyForce(otherGO, false);
+            
         }
     }
 
@@ -68,6 +68,8 @@ public class MagnetField : MonoBehaviour
     //Creates the force vector to apply to the player then applies it to their rigidbody2D
     private void ApplyForce(GameObject otherGO, bool playerPositive)
     {
+        Debug.Log("Applying force to " + otherGO);
+
         Rigidbody2D rb = otherGO.GetComponent<Rigidbody2D>();
 
         Vector3 forceApplied = Vector3.zero;
