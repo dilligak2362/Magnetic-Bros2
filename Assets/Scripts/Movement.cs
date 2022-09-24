@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-
+        Debug.Log("horizontalMove");
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && isSprinting == true && horizontalMove != 0)

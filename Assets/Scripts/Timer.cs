@@ -32,7 +32,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         
-        timerText.text = currentTime.ToString("0");
+        timerText.text = "Time Left:" + currentTime.ToString("0");
 
         if (rusting.isRusting == true)
         {
