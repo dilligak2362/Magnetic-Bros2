@@ -74,16 +74,16 @@ GameObject:
   - component: {fileID: 7072325586079476765}
   - component: {fileID: 7072325586079476764}
   - component: {fileID: 7072325586079476739}
-  - component: {fileID: 7072325586079476736}
   - component: {fileID: 9117927860155517311}
   - component: {fileID: 4168321300666248654}
   - component: {fileID: 1041048956}
   - component: {fileID: 1041048955}
-  - component: {fileID: 1041048958}
   - component: {fileID: 1041048959}
   - component: {fileID: 1653970467012911824}
+  - component: {fileID: 3671573378588348670}
+  - component: {fileID: 7718166225341791798}
   m_Layer: 3
-  m_Name: Player
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ Transform:
   - {fileID: 1154306246}
   - {fileID: 1358160304}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7072325586079476765
 SpriteRenderer:
@@ -147,7 +147,7 @@ SpriteRenderer:
   m_SortingLayerID: -389978007
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -787470566, guid: 2b431262dc38c8442824c896e38a747e, type: 3}
+  m_Sprite: {fileID: -877267130, guid: 2b431262dc38c8442824c896e38a747e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -175,7 +175,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.01, y: 7.0020266}
+    oldSize: {x: 7.01, y: 7.032035}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -205,27 +205,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7072325586079476736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7072325586079476767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae570127250f2fd44afff7732c6ae9a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 1653970467012911824}
-  rusting: {fileID: 1041048958}
-  animator: {fileID: 1041048955}
-  AI: {fileID: 9117927860155517311}
-  initialSpeed: 40
-  speed: 40
-  sprintSpeed: 80
-  isJumping: 1
-  isSprinting: 1
 --- !u!198 &9117927860155517311
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4956,7 +4935,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2af04be0d1078c04c83fba1420052991, type: 2}
+  - {fileID: 2100000, guid: f3bbe39ebf025b148814c93e8c8b10e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5033,7 +5012,7 @@ Animator:
   m_GameObject: {fileID: 7072325586079476767}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c70c505632629c44693320b7f5a77889, type: 2}
+  m_Controller: {fileID: 9100000, guid: 70b96294d98809d4ca98a299e6493820, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5043,21 +5022,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1041048958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7072325586079476767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de93ad85aa0b3e14098587fb6c0be764, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movement: {fileID: 7072325586079476736}
-  isRusting: 0
-  rustSpeed: 20
 --- !u!114 &1041048959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5096,7 +5060,7 @@ MonoBehaviour:
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7072325586079476736}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Movement, Assembly-CSharp
         m_MethodName: OnLanding
         m_Mode: 1
@@ -5111,3 +5075,39 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3671573378588348670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7072325586079476767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d2ce0886342ea468a979e3aca16f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1653970467012911824}
+  rusting: {fileID: 7718166225341791798}
+  animator: {fileID: 1041048955}
+  AI: {fileID: 9117927860155517311}
+  initialSpeed: 40
+  speed: 40
+  sprintSpeed: 80
+  isJumping: 1
+  isSprinting: 1
+--- !u!114 &7718166225341791798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7072325586079476767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5819fdd535649e418a3e078a1f3e854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p2Movement: {fileID: 3671573378588348670}
+  isRusting: 0
+  rustSpeed: 20
