@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
 guid: 2e498d1c8094910479dc3e1b768306a4
 timeCreated: 1484171803
 licenseType: Pro
+========
+guid: f2dcf029949142e28b974630369c8b4e
+timeCreated: 1444812175
+licenseType: Store
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat.meta
 NativeFormatImporter:
   userData: 
   assetBundleName: 

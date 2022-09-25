@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fonts/Eternal-8Md1g.otf.meta
 guid: 466ff510721af8244a0c58730a647b23
+========
+guid: 8a2b9e2a607dd2143b58c44bc32410b4
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,8 +12,14 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
+<<<<<<<< HEAD:Assets/Fonts/Eternal-8Md1g.otf.meta
   fontNames:
   - eternal
+========
+  fontName: Electronic Highway Sign
+  fontNames:
+  - Electronic Highway Sign
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

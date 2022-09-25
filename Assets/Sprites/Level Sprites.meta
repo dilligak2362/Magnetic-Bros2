@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Level Sprites.meta
 guid: 5827fa4dd9211814faa0c0b85c8b0130
+========
+guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

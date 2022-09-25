@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
 guid: 18b98428d11ca0e4d93a8808adef790e
+========
+guid: 17c350171f7a3ca479f830547c66d187
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
   serializedVersion: 11
+========
+  serializedVersion: 7
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,16 +31,20 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
   vTOnly: 0
   ignoreMasterTextureLimit: 0
+========
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
+  textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
     filterMode: 0
     aniso: 1
     mipBias: 0
@@ -40,6 +52,15 @@ TextureImporter:
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
+========
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
@@ -51,22 +72,34 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
   flipbookColumns: 1
+========
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+========
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,10 +108,16 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
+========
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 512
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -87,10 +126,16 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
+========
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 512
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -99,10 +144,27 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+========
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 512
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -118,14 +180,21 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
+========
+    spriteID: 
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
     vertices: []
     indices: 
     edges: []
     weights: []
+<<<<<<<< HEAD:Assets/Sprites/Character Sprites/Run 1.png.meta
     secondaryTextures: []
     nameFileIdTable: {}
+========
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
