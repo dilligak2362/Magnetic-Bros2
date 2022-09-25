@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fonts.meta
+guid: 6f01faede80908945ab9ff55e9f0af58
+========
 guid: ed325ab9f85d1cd48961d6d1f187085a
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/Gradients.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

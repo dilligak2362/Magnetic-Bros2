@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/P2Movement.cs.meta
+guid: b1d2ce0886342ea468a979e3aca16f55
+========
+guid: 1d42a942f10f94c42924200c59aaa757
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/MenuScript.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

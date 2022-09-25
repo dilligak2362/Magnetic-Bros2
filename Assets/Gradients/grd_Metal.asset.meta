@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fonts/Eternal-8Md1g SDF.asset.meta
+guid: d4abc1221e4e0d54cb80bb90a3a2ff74
+========
 guid: 7438f2dc771e67e4685d7295dd246453
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/Gradients/grd_Metal.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

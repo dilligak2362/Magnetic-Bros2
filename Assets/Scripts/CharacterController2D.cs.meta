@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/CharacterController2D.cs.meta
+guid: e83020bfb9af7b24c99a71276db3ba7d
+========
+guid: 7ef126cee20903d4c9912b52e06a5bc5
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/Scripts/RepeatedMovement.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
