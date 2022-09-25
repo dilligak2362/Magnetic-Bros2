@@ -1,54 +1,5 @@
 {
     "name": "PlayerControls",
-    "maps": [
-        {
-            "name": "PlayerMovments",
-            "id": "b84101f8-fe4e-4861-ae56-d2ced84046f4",
-            "actions": [
-                {
-                    "name": "Movement",
-                    "type": "Button",
-                    "id": "6c122b51-a488-4d94-8f1d-be2bb779b955",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "203155a6-8884-414d-a7a8-dc829e29bf8a",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "62c04324-2a43-4312-90a3-2a45a4d08408",
-                    "path": "<Joystick>/stick/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "84658999-dfc6-4018-81e7-78edf9046006",
-                    "path": "<XInputController>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        }
-    ],
+    "maps": [],
     "controlSchemes": []
 }
