@@ -17,6 +17,7 @@ public class P2Movement : MonoBehaviour
     bool crouch = false;
     public bool isJumping = true;
     public bool isSprinting = true;
+    public bool isFinished = false;
     bool jump = false;
     void Start()
     {
@@ -55,6 +56,12 @@ public class P2Movement : MonoBehaviour
         else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
+        }
+
+        if (isFinished == true)
+        {
+            speed = 0f;
+            isJumping = false;
         }
     }
 
