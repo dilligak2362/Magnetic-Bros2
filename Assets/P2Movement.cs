@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class P2Movement : MonoBehaviour
 {
     public CharacterController2D controller;
-    public Rusting rusting;
+    public P2Rusting rusting;
     public Animator animator;
     public ParticleSystem AI;
 
@@ -26,24 +26,24 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-        
+        horizontalMove = Input.GetAxisRaw("HorizontalP2") * speed;
+
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (Input.GetKeyDown(KeyCode.LeftControl) && isSprinting == true && horizontalMove != 0)
+        if (Input.GetKeyDown(KeyCode.RightControl) && isSprinting == true && horizontalMove != 0)
         {
             speed = sprintSpeed;
             animator.SetBool("isSprinting", true);
             AI.Play();
         }
-        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        else if (Input.GetKeyUp(KeyCode.RightControl))
         {
             speed = initialSpeed;
             animator.SetBool("isSprinting", false);
             AI.Stop();
         }
 
-        if (Input.GetButton("Jump") && isJumping == true)
+        if (Input.GetButton("JumpP2") && isJumping == true)
         {
             jump = true;
             animator.SetBool("isJumping", true);

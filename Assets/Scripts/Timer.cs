@@ -8,17 +8,20 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     Rusting rusting;
+    P2Rusting p2Rusting;
     [SerializeField] GameObject player;
+    [SerializeField] GameObject p2Player;
 
     [SerializeField] float normalCountdown = 1;
     [SerializeField] float rustCountdown = 3;
 
     float currentTime = 0;
-    float startingTime = 600;
+    float startingTime = 300;
 
     void Awake()
     {
         rusting = player.GetComponent<Rusting>();
+        p2Rusting = p2Player.GetComponent<P2Rusting>();
     }
 
     [SerializeField] TMP_Text timerText;
@@ -39,6 +42,15 @@ public class Timer : MonoBehaviour
             currentTime -= rustCountdown * Time.deltaTime;
         }
         if (rusting.isRusting == false)
+        {
+            currentTime -= normalCountdown * Time.deltaTime;
+        }
+
+        if (p2Rusting.isRusting == true)
+        {
+            currentTime -= rustCountdown * Time.deltaTime;
+        }
+        if (p2Rusting.isRusting == false)
         {
             currentTime -= normalCountdown * Time.deltaTime;
         }

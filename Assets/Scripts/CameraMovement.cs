@@ -24,7 +24,7 @@ public class CameraMovement : MonoBehaviour
 
     void CamPosition()
     {
-        if (player.transform.position.x > 9)
+        if (player.transform.position.x > 9.1)
         {
             //transform.position = Vector3.Lerp(transform.position, nxtCamPointSM.position, Time.deltaTime);
             transform.position = nxtCamPointIT;
