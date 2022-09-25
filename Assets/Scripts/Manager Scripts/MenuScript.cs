@@ -16,19 +16,26 @@ public class MenuScript : MonoBehaviour
     public TMP_Text copyrightTextbox; //texbox for copyright
     public TMP_Text messageTextbox; //textbox for end message
 
+    private GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
+        gm = GameManager.GM;
         //Set the values for textboxes
     }
 
    public void OnGameStart()
     {
         Debug.Log("Game Started");
+
+        gm.StartGame();
     }// end ongamestart()
 
     public void OnGameExit()
     {
         Debug.Log("Game Exited");
+
+        gm.ExitGame();
     }
 }
