@@ -75,6 +75,8 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("Loading level " + gameLevel);
+
+        won = false;
         SceneManager.LoadScene(gameLevel);
     }
 
