@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
 guid: 79459efec17a4d00a321bdcc27bbc385
 timeCreated: 1484172856
 licenseType: Pro
+========
+guid: f629c6e43dba4bf38cb74d8860150664
+timeCreated: 1455497618
+licenseType: Store
+>>>>>>>> 4dfc07675887829a5fd3716af8281c3d79effc69:Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat.meta
 NativeFormatImporter:
   userData: 
   assetBundleName: 
