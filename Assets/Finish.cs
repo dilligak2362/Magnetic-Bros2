@@ -22,7 +22,7 @@ public class Finish : MonoBehaviour
     {
         if (movement.isFinished == true && p2Movement.isFinished == true)
         {
-            
+            SceneManager.LoadScene(1);
         }
         
     }

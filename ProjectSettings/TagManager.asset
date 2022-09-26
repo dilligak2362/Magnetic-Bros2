@@ -10,6 +10,7 @@ TagManager:
   - rust
   - NxtCam
   - rust2
+  - Player2
   layers:
   - Default
   - TransparentFX
